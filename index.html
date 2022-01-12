@@ -13,6 +13,8 @@
 
 	</head>
 	<body>
+    
+    <div id="preloader"></div>
 	<section class="ftco-section">
 		<div class="container" >
       <form action="https://formspree.io/f/mpzbqabe" method="post">
@@ -81,6 +83,13 @@
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/main.js"></script>
 
+  <script>
+
+    var loader =document.getElementById("preloader")
+    window.addEventListener("load", function() {
+      loader.style.display = "none"
+    })
+  </script>
 	</body>
 
   <head>
